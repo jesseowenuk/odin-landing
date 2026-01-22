@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #F9FAF8;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Header Section */
+header {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.logo {
+    padding-left: 150px;
+}
+
+.left-links {
+    padding-right: 150px;
+}
+
+.left-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.left-links a {
+    color: #aaa;    
+}
+
+.logo a {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Hero Section */
+.hero {
+    background: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Information Section */
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+/* Quote Section */
+.quote-section {
+    background: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+/* CTA Section */
+.cta {
+    background: #3882F6;
+}
+
+/* Footer Section */
+footer {
+    background: #1F2937;
+}
+
+/* Button */
+button {
+    background: #3882F6;;
+}
