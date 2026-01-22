@@ -113,6 +113,13 @@ h1 {
     align-items: center;
 }
 
+.info-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding-top: 8px;
+    color: #666;
+}
+
 h2 {
     font-size: 36px;
     color: #1F2937;
@@ -144,22 +151,68 @@ h2 {
 /* Quote Section */
 .quote-section {
     background: #E5E7EB;
+    padding: 0 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote-text {
+    width: 780px;
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    padding: 128px 0 0 0;
+    color: #333;
+}
+
+.quote-by {
+    width: 780px;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 0 0 128px;
+    color: #333;
+    text-align: right;
 }
 
 /* CTA Section */
+.cta-container {
+    padding: 0 250px 105px 250px;   
+    background: #ffffff;
+}
+
 .cta {
     background: #3882F6;
+    margin: 18px;
+    border: 1px solid #3882F6;
+    border-radius: 18px;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 75px 0 0 0;
+}
+
+.cta-text {
+    width: 500px;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    width: 200px;
+    text-align: center;
 }
 
 /* Footer Section */
 footer {
     background: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: #E5E7EB;
+    padding: 32px;
 }
 
 /* Button */
